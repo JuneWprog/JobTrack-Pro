@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/jobSearch"
+            android:icon="@drawable/ic_search_24"
+            android:title="Job Search"
+            android:checkable="true"/>
+    </group>
+
+    <item
+        android:id="@+id/Management"
+        android:title="Management">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Resumes"
+                    android:icon="@drawable/resume_management_24"
+                    android:title="My Resume" />
+                <item
+                    android:id="@+id/Applications"
+                    android:icon="@drawable/application_management_24"
+                    android:title="My Applications" />
+                <item
+                    android:id="@+id/Favorites"
+                    android:icon="@drawable/favorite_border_24"
+                    android:title="My Favorites" />
+                    android:checkable="true"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Community"
+        android:title="Community">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Posts"
+                    android:icon="@drawable/ic_community_24"
+                    android:title="Posts"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/Chat"
+                    android:icon="@drawable/ic_chat_24"
+                    android:title="Chat"
+                    android:checkable="true"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Profile"
+                    android:icon="@drawable/ic_profile_24"
+                    android:title="Profile"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/SignOut"
+                    android:icon="@drawable/log_out_24"
+                    android:title="Sign Out"
+                    android:checkable="true" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
